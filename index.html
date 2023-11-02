@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Levi Mason</title>
+    <title>Levi's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
@@ -38,22 +38,19 @@
             border-radius: 15px;
             padding: 20px;
         }
-        .experience {
+        .experience,
+        .certificates {
             background-color: #fff;
             border-radius: 15px;
             padding: 20px;
             margin-bottom: 20px;
         }
-        .skills-contact {
-            display: flex;
-            justify-content: space-between;
-        }
         .skills,
         .contact {
-            width: 48%;
             background-color: #fff;
             border-radius: 15px;
             padding: 20px;
+            margin-bottom: 20px;
         }
         ul {
             list-style-type: none;
@@ -71,7 +68,10 @@
             object-fit: cover;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
-        .contact h2 {
+        .contact h2,
+        .certificates h2,
+        .experience h2,
+        .skills h2 {
             margin: 0;
         }
         .contact-button {
@@ -87,46 +87,43 @@
         .contact-button a {
             text-decoration: none;
             color: #fff;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Levi Mason</h1>
-        <p>Criminal Justice | Law Enforcement | Emergency Managment</p>
+        <h1>Levi's Portfolio</h1>
+        <p>Web Developer</p>
     </header>
     <div class="profile-card">
-        <img src="View recent photos 2.png" alt="Profile photo" class="profile-photo">
+        <img src="View recent photos 2.png" alt="View recent photos 2.png" class="profile-photo">
         <h2>About Me</h2>
         <p>Write a brief introduction about yourself here.</p>
     </div>
-    <div class="profile-card experience">
-        <h2>Experience</h2>
+    <div class="profile-card certificates">
+        <h2>Certificates</h2>
         <ul>
-            <li><strong>Web Developer</strong> - ABC Company (2020-Present)</li>
-            <li><strong>Intern</strong> - XYZ Inc. (2019)</li>
+            <li><strong>Web Development Certification</strong> - Online Academy (2021)</li>
+            <li><strong>Front-End Development Certificate</strong> - Coding School (2020)</li>
         </ul>
     </div>
-    <div class="profile-card">
-        <div class="skills-contact">
-            <div class="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-            <div class="contact">
-                <h2>Contact</h2>
-                <ul>
-                    <li>Email: levi@levim.org</li>
-                    <li>Phone: 864.361.4734</li>
-                </ul>
-                <div class="contact-button">
-                    <a href="tel:8643614734">Contact Me</a>
-                </div>
-            </div>
+    <div class="profile-card skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+    <div class="profile-card contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: levi@levim.org</li>
+            <li>Phone: 864.361.4734</li>
+        </ul>
+        <div class="contact-button">
+            <a href="tel:8643614734">Contact Me</a>
         </div>
     </div>
 </body>
