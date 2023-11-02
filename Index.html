@@ -1,1 +1,114 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Levi's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background: linear-gradient(to right, #FF0000, #000000);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Anton', sans-serif;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            font-weight: 600;
+            font-family: 'Anton', sans-serif;
+        }
+        p {
+            font-size: 18px;
+            margin: 0;
+            opacity: 0.8;
+            font-family: 'Anton', sans-serif;
+        }
+        .profile-card {
+            max-width: 800px;
+            margin: 20px auto; /* Add margin to center the card and create spacing from the screen edges */
+            background-color: #fff;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+        }
+        .experience {
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .skills-contact {
+            display: flex;
+            justify-content: space-between;
+        }
+        .skills,
+        .contact {
+            width: 48%;
+            background-color: #fff;
+            border-radius: 15px;
+            padding: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .profile-photo {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Levi's Portfolio</h1>
+        <p>Web Developer</p>
+    </header>
+    <div class="profile-card">
+        <img src="profile-photo.jpg" alt="Your Photo" class="profile-photo">
+        <h2>About Me</h2>
+        <p>Write a brief introduction about yourself here.</p>
+    </div>
+    <div class="profile-card experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Web Developer</strong> - ABC Company (2020-Present)</li>
+            <li><strong>Intern</strong> - XYZ Inc. (2019)</li>
+        </ul>
+    </div>
+    <div class="profile-card">
+        <div class="skills-contact">
+            <div class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Email: your.email@example.com</li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/yourprofile">linkedin.com/yourprofile</a></li>
+                    <li>Portfolio: <a href="https://www.yourportfolio.com">yourportfolio.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
